@@ -1,0 +1,4 @@
+SELECT `jasa pengiriman`.`Nama Jasa Pengiriman`AS 'Nama Jasa', `penjual`.`Kota` AS 'Kota Penjual', `pelanggan`.`Kota` AS 'Kota Pembeli'
+FROM `jasa pengiriman`
+	, `penjual`
+	, `pelanggan`

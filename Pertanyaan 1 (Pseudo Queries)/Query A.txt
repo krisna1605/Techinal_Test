@@ -1,0 +1,7 @@
+SELECT `pelanggan`.`Nama Pelanggan`, `produk`.`Nama Produk`, `keranjang`.`Kuantitas`, `jasa pengiriman`.`Nama Jasa Pengiriman`
+FROM `pelanggan`
+	, `produk`
+	, `keranjang`
+	, `jasa pengiriman`
+    , `sejarah pembelian`
+WHERE `sejarah pembelian`.`Status` = 'Lunas'
